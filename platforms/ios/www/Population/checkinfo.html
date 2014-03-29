@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ -->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="imagetoolbar" content="no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        
+        <title>Check Info</title>
+    </head>
+    <body style="background-image:url('../img/metal_textures_silver_background.jpg');">
+        <!-- Header -->
+        <p id="header" class="header_container" style="background-color:#333333; margin: 0; padding: 0; border: none;text-align:center;font-family:Helvetica;font-size:24px;font-weight:normal;font-style:normal;text-decoration:none;color:#D3BB75;">
+        <span><a href="../index.html" data-theme="" id="homeButton" style="float:left">
+            <img src="../img/u17_normal.png" width="25" height="25"></a></span> FAC Tracker
+        </p> <!-- end header -->
+        
+        <!-- Page content -->
+        <div id="main_container" style="width: 98%;">
+            <div class="container">
+                <form method="POST" action="http://YOUR_DOMAIN_HERE:81/login/login.php">
+                    <label> Fitness Center: </label> <input type="text" name="fc" size="4" /><br /><br />
+                    <label> MAC: </label> <input type="text" name="mac" size="4" /><br /><br />
+                    <label> Gym A: </label> <input type="text" name="gyma" size="4" /><br /><br />
+                    <label> Gym B: </label> <input type="text" name="gymb" size="4" /><br /><br />
+                    <label> Rock Wall: </label> <input type="text" name="rock" size="4" /><br /><br />
+                    <label> Locker Rooms: </label> <input type="text" name="locker" size="4" /><br /><br />
+                    <label> Track: </label> <input type="text" name="track" size="4" /><br /><br />
+                    <label> Track Cardio: </label> <input type="text" name="trackcardio" size="4" /><br /><br />
+                    <label> Ab Area: </label> <input type="text" name="abarea" size="4" /><br /><br />
+                    <label> Raquetball Courts: </label> <input type="text" name="rbcts" size="4" /><br /><br />
+                    <label> Squash Courts: </label> <input type="text" name="sqcts" size="4" /><br /><br />
+                    <label> Ping Pong: </label> <input type="text" name="pingpong" size="4" /><br /><br />
+                    <label> Rm. 207: </label> <input type="text" name="rm207" size="4" /><br /><br />
+                    <label> Rm. 209: </label> <input type="text" name="rm209" size="4" /><br /><br />
+                    <label> Atrium: </label> <input type="text" name="atrium" size="4" /><br /><br />
+                    <label> Cafe: </label> <input type="text" name="cafe" size="4" /><br /><br />
+                    <label> Pool: </label> <input type="text" name="pool" size="4" /><br /><br />
+                    <label> Hot Tub: </label> <input type="text" name="hottub" size="4" /><br /><br />
+                    <label> Sauna: </label> <input type="text" name="sauna" size="4" /><br /><br />
+                    
+                    
+                    <div align="center">
+                        <p><input type="submit" value="Submit" /></p>
+                    </div>
+                </form>
+            </div>
+        </div> <!-- end main body -->
+        <script type="text/javascript" src="../cordova.js"></script>
+        <script type="text/javascript" src="../js/index.js"></script>
+        
+        <!-- Footer -->
+        <div id="footer" class="footer_container">
+            
+            <div id="footer_img" style="background-color:#333333;">
+                <img src="../img/loyola_logo.gif"  class="lum_logo" style="display:block;margin-left:auto; margin-right:auto;">
+                    </div>
+            
+        </div> <!-- end footer -->
+    </body>
+</html>

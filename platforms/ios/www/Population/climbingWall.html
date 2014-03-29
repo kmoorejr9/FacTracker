@@ -27,42 +27,43 @@
         <meta http-equiv="imagetoolbar" content="no"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
         
-        <title>FacTracker Home</title>
+        <title>Climbing Wall Population</title>
     </head>
-    <body style="background-image:url('img/metal_textures_silver_background.jpg');">
+    <body style="background-image:url('../img/metal_textures_silver_background.jpg');">
         <!-- Header -->
-        <p id="header" class="header_container" style="background-color:#333333; margin: 0; padding: 0; border: none;text-align:center;font-family:Helvetica;font-size:36px;font-weight:normal;font-style:normal;text-decoration:none;color:#D3BB75;"> FAC Tracker
+        <p id="header" class="header_container" style="background-color:#333333; margin: 0; padding: 0; border: none;text-align:center;font-family:Helvetica;font-size:24px;font-weight:normal;font-style:normal;text-decoration:none;color:#D3BB75;">
+        <span><a href="populationMain.html" data-theme="" id="backButton" style="float:left">
+            <img src="../img/back_icon.png" width="25" height="25">
+                </a></span> FAC Tracker
         </p> <!-- end header -->
         
         <!-- Page content -->
         <div id="main_container" style="width: 98%;">
             <div>
-                <a href="populationMain.html"> Back <br /> </a>
+                <p id="popBody" class="body_container" style="margin: 0; padding: 0; border: none;text-align:center;font-family:Helvetica;font-size:36px;font-weight:normal;font-style:normal;text-decoration:none;color:#FFFFFF;"> Current Population is: 245 People
+            <div>
             </div>
         </div> <!-- end main container -->
         </div> <!-- end main body -->
        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-            </script>
         
         <!-- Footer -->
         <div id="footer" class="footer_container">
             <div id="population_density" style="background-color:#336600">
                 <div id="population_density">
                     <p id="density_text" style="text-align:center;font-family:Helvetica;font-size:18px;font-weight:bold;font-style:normal;text-decoration:none;color:#FFFFFF;">
-                    Population Density: <span style="color:#FF0000"><img src="img/indicator_high_icon.png">&#09;HIGH</span>
+                    Population Density: <span style="color:#FF0000"><img src="../img/indicator_high_icon.png">&#09;HIGH</span>
                     </p>
                 </div>
             </div>
             
             <div id="footer_img" style="background-color:#333333;">
-                <img src="img/loyola_logo.gif"  class="lum_logo" style="display:block;margin-left:auto; margin-right:auto;">
-                    </div>
+                <img src="../img/loyola_logo.gif"  class="lum_logo" style="display:block;margin-left:auto; margin-right:auto;">
+            </div>
             
         </div> <!-- end footer -->
     </body>

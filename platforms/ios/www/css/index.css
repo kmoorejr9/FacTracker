@@ -97,3 +97,47 @@ h1 {
     display:none;
 }
 
+form {
+    width: 65%;
+    margin: 0 auto;
+}
+
+label, input {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+label {
+    white-space:nowrap;
+    font-size:12px;
+    font-weight:bold;
+    color:#FFFFFF;
+    width: 30%;
+    text-align: left;
+    padding:2px;
+    
+}
+
+input{
+    align:center;
+}
+
+label + input {
+    width: 30%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+input + input {
+}
+
+#inputs{
+-webkit-column-count:2; /* Chrome, Safari, Opera */
+-moz-column-count:2; /* Firefox */
+column-count:2;
+padding:2px;
+margin: 2px;
+}
